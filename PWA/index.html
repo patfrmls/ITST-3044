@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITST 304 PWA</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">ITST 304 PWA</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="loadHome()">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="loadGallery()">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="loadAbout()">About</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container" id="content">
+        <!-- Content will be loaded here -->
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

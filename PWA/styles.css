@@ -1,0 +1,52 @@
+body {
+    padding-top: 56px;
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    background-color: #343a40 !important;
+}
+
+.navbar-brand, .nav-link {
+    color: #ffffff !important;
+}
+
+.nav-link:hover {
+    color: #d4d4d4 !important;
+}
+
+.container {
+    padding-top: 20px;
+}
+
+h2 {
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+.list-group-item {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+}
+
+.card {
+    border: 1px solid #dee2e6;
+}
+
+.card-body {
+    background-color: #ffffff;
+}
+
+.card-text {
+    color: #343a40;
+}
+
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
